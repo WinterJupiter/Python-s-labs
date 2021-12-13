@@ -34,9 +34,9 @@ def deserialization(path: str) -> list:
     return local_data
 
 
-data = read_data('D:\\out.txt')
-shell_sort(data)
-out = open('D:\\res.txt', 'w', encoding='utf-8')
-new_data = json.dumps(data, ensure_ascii=False, indent=4)
-out.write(new_data)
-out.close()
+#data = read_data('D:\\out.txt')
+#shell_sort(data)
+#out = open('D:\\res.txt', 'w', encoding='utf-8')
+#new_data = json.dumps(data, ensure_ascii=False, indent=4)
+#out.write(new_data)
+#out.close()
